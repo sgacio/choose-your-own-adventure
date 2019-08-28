@@ -9,4 +9,52 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background: url('./components/imagespokegame/battlearena.png');
+  background-size: cover;
+}
+
+.head {
+  text-align: center;
+  margin: 0rem 0 1rem 0;
+  border-top: .5rem solid black;
+  border-bottom: .5rem solid black;
+  padding: 1rem;
+  font-family: 'Shadows Into Light';
+  font-size: 3rem;
+  background-color: rgb(199, 14, 22);
+  font-weight: 800;
+}
+
+.dad {
+  border: .01rem solid black;
+  background-color: antiquewhite;
+  border-radius: 40px;
+  opacity: .8;
+}
+
+.the-thing {
+  margin-left: 40rem;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+li {
+  margin: .5rem;
+}
+
+.foot {
+  text-align: center;
+  border-top: .5rem solid black;
+  border-bottom: .5rem solid black;
+  padding: 1rem;
+  font-family: 'Shadows Into Light';
+  font-size: 3rem;
+  background-color: rgb(199, 14, 22);
+  font-weight: 800;
 }

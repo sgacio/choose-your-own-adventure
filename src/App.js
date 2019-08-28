@@ -1,9 +1,17 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import PokemonCards from './components/PokemonCards'
+import Headers from './components/Header'
+import Footer from './Footer'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <>
+        <Headers />
+        <PokemonCards />
+        <Footer />
+      </>
+    )
   }
 }
 
