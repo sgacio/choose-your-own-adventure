@@ -52,7 +52,7 @@ class PokemonCards extends Component {
                     <p>{card.rarity}</p>
                   </section>
                   <div className="the-kid">
-                    <img src={card.imageUrl} style={{ height: '15rem' }} />
+                    <img src={card.imageUrl} style={{ height: '25rem' }} />
                   </div>
                 </li>
               )
