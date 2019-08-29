@@ -34,6 +34,8 @@ body {
 
 .the-thing {
   margin-left: 40rem;
+  margin-right: 1rem;
+  height: 2rem;
 }
 
 .container {
